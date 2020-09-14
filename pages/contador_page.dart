@@ -12,7 +12,7 @@ class ContadorPage extends StatefulWidget{
 // Clase que contador que extiende del estado de la Clase principal
 class _ContadorPageState extends State <ContadorPage> {
 
-      final _estiloTexto = new TextStyle(fontSize: 25.0);
+      final _estiloTexto = new TextStyle(fontSize: 27.0);
       
       int _conteo = 0;
 
@@ -23,7 +23,7 @@ class _ContadorPageState extends State <ContadorPage> {
       appBar: AppBar(
         title: Text('Contador prueba 1'),
         centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 70, 212, 188),
+        backgroundColor: Color.fromARGB(255, 0, 212, 188),
       ),
 
       body: Center(
